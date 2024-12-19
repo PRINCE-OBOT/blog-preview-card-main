@@ -39,6 +39,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Figtree;
+  font-weight: var(--fw-medium);
+  padding: 1rem;
 }
 .container {
   max-width: 384px;
@@ -83,8 +86,6 @@ main {
 .published-date {
   max-width: 143px;
   max-height: 21px;
-  font-family: Figtree;
-  font-weight: var(--fw-medium);
   color: var(--color-black);
   font-size:var(--fs-small);
   line-height: 150%;
@@ -105,8 +106,6 @@ main {
 .description {
   max-width: 336px;
   max-height: 72px;
-  font-family: Figtree;
-  font-weight: var(--fw-medium);
   font-size:var(--fs-medium);
   color: var(--color-darkGrey);
 }
@@ -116,7 +115,6 @@ main {
   max-width: 129px;
   max-height: 32px;
   gap: 12px;
-  color: var(--color-black);
 }
 .user-pic {
   max-width: 32px;
@@ -129,7 +127,6 @@ main {
   font-weight: var(--fw-ExtraBold);
   font-size: var(--fs-small);
   line-height: 150%;
-  color: var(--color-black);
 }
 
 @media(min-width: 280px)and(max-width : 395px){
