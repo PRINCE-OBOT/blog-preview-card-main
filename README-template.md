@@ -4,9 +4,10 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+### The challenge
+I had challenges trying to use custom font, and understanding the purpose of font-weight in when creating custom font.
+
+  - [Screenshot](./assets/images/Screenshot.png)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
