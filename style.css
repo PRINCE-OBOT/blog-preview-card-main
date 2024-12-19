@@ -6,25 +6,27 @@
   padding: 0;
 }
 @font-face {
-    font-family: Figtree;
-    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
-    font-weight: var(--fw-ExtraBold);
+  font-family: Figtree;
+  src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+  font-weight: var(--fw-ExtraBold);
 }
 @font-face {
-    font-family: Figtree;
-    src: url(assets/fonts/static/Figtree-SemiBold.ttf);
-    font-weight:var(--fw-SemiBold);
+  font-family: Figtree;
+  src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+  font-weight: var(--fw-medium);
 }
+
 :root {
   --color-Yellow: hsl(47, 88%, 63%);
   --color-White: hsl(0, 0%, 100%);
   --color-500: hsl(0, 0%, 42%);
   --color-900: hsl(0, 0%, 7%);
-  
-  --fw-SemiBold:500;
-  --fw-ExtraBold:800;
 
-  --color:#111111;
+  --fw-medium: 500;
+  --fw-ExtraBold: 800;
+
+  --color-black: #111111;
+  --color-darkGrey: #6b6b6b;
 }
 body {
   width: 1440px;
@@ -46,22 +48,21 @@ body {
   gap: 24px;
   padding: 24px;
 }
-.illustration-img {
+.blog-image{
   width: 336px;
   height: 200px;
   border-radius: 10px;
 }
-main{
-    width: 336px;
-    height: 194px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    text-align: left;
+main {
+  width: 336px;
+  height: 194px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
 }
 
-
-.heading {
+.learning {
   width: 82px;
   height: 29px;
   border-radius: 4px;
@@ -73,13 +74,56 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--color);
+  color: var(--color-black);
 }
-p{
-    height: 21px;
-    font-family: Figtree;
-    font-weight: var(--fw-SemiBold);
-    color: var(--color);
-    font-size: 14px;
-    line-height: 150%;
+.published-date {
+  width: 143px;
+  height: 21px;
+  font-family: Figtree;
+  font-weight: var(--fw-medium);
+  color: var(--color-black);
+  font-size: 14px;
+  line-height: 150%;
+}
+.title {
+  font-family: Figtree;
+  font-weight: var(--fw-ExtraBold);
+  color: var(--color-black);
+  font-size: 24px;
+  line-height: 150%;
+  width: 336px;
+  height: 36px;
+}
+.title:hover{
+  cursor: pointer;
+  color: var(--color-Yellow);
+}
+.description {
+  width: 336px;
+  height: 72px;
+  font-family: Figtree;
+  font-weight: var(--fw-medium);
+  font-size: 16px;
+  color: var(--color-darkGrey);
+}
+.author {
+  display: flex;
+  align-items: center;
+  width: 129px;
+  height: 32px;
+  gap: 12px;
+  color: var(--color-black);
+}
+.user-pic {
+  width: 32px;
+  height: 32px;
+}
+.author-name {
+  width: 85px;
+  height: 21px;
+  font-family: Figtree;
+  font-weight: var(--fw-ExtraBold);
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--color-black);
 }
